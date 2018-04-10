@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="50000">
+        <setting label="50001" type="lsep"/>
+        <setting label="50002" type="enum" id="type" lvalues="52001|52002"/>
+        <setting label="50003" type="file" id="file" default="" visible="eq(-1,0)" />
+        <setting label="50004" type="text" id="url" default="" visible="eq(-2,1)" />
+    </category>
+    <category label="60000">
+        <setting type="lsep" label="60001" />
+        <setting type="lsep" label="60012" />
+        <setting type="lsep" label="60013" />
+        <setting label="60003" type="folder" id="folder" source="auto" option="writeable"/>
+        <setting label="60004" type="text" id="addon_name" />
+        <setting label="60006" type="text" id="addon_version" />
+        <setting label="60008" type="text" id="addon_summary" />
+        <setting label="60009" type="text" id="addon_description" />
+        <setting label="60005" type="text" id="addon_author" />
+        <setting label="60007" type="text" id="addon_email" />
+        <setting label="60010" id="addon_icon" type="file"  mask=".png" />
+        <setting label="60011" id="addon_fanart" type="file" mask=".png" />
+        <setting label="60002" id="create_addon" type="bool" default="false" />
+    </category>
+</settings>

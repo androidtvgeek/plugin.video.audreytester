@@ -1,0 +1,202 @@
+{
+    "folders" : [
+        {
+            "name" : "Comedy",
+            "poster" : "",
+            "fanart" : ""
+        },
+        {
+            "name" : "SciFi/Horror",
+            "poster" : "",
+            "fanart" : ""
+        }
+    ],
+    "sites" : [
+        {
+            "name" : "Absolutely Fine",
+            "folder" : "Comedy",
+            "poster" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t",
+            "fanart" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t",
+            "items" : {
+                "Latest" :[
+                    {
+                        "site_url" : "https://www.comedy.co.uk/online/absolutely_fine/episodes/all/",
+                        "pattern" : "<h3><a href=\"{%}\">S{%}</a></h3>",
+                        "name" : "S{%2}",
+                        "url" : "https://www.comedy.co.uk/{%1}",
+                        "poster" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t",
+                        "fanart" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t"
+                    },
+                    {
+                        "pattern" : "<h3 class=\"media-heading\"><a href=\"{%}\">{%}</a>",
+                        "name" : "{%2}",
+                        "url" : "https://www.comedy.co.uk/{%1}",
+                        "poster" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t",
+                        "fanart" : "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-1200-h-600-scale-crop/public/cc_uk/arc/2017/04/10/b944cfa5-a81b-4b86-b9dd-461a5b52a7ba.png?itok=6xIFaM6t"
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Dust",
+            "folder": "SciFi/Horror",
+            "poster" : "https://yt3.ggpht.com/a-/AK162_4GR9kZvT7T4HGKzUNUgAA_vxmUDMKdEBa9rQ=s900-mo-c-c0xffffffff-rj-k-no",
+            "fanart" : "http://watchdust.com/wp-content/uploads/2017/04/Dust_Header_image.png",
+            "items" : {
+                "Latest": [
+                    {
+                        "site_url" : "http://watchdust.com/video/",
+                        "pattern" : "<article class={*}portfolio-category-video{*}src=\"{%}\"{*}<h4{*}>{%}</h4>{*}href=\"{%}\"{*}</article>",
+                        "name" : "{%2}",
+                        "url" : "{%3}",
+                        "poster" : "{%1}",
+                        "fanart" : "{%1}"
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Daniel Johnson Films",
+            "folder" : "Comedy", 
+            "poster" : "https://www.danieljohnsonfilms.co.uk/wp-content/uploads/2014/04/DanWEB_9607.jpg",
+            "fanart" : "https://www.danieljohnsonfilms.co.uk/wp-content/uploads/2017/03/image4.jpg",
+            "items" : {
+                "Short Films": [
+                    {
+                        "site_url" : "https://www.danieljohnsonfilms.co.uk/films/",
+                        "pattern" : "<div class=\"col-md-6\"{*}src=\"{%}embed{%}?{*}\"{*}<h2>{%}</h2>{*}<p>{%}</p>{*}</div>",
+                        "name" : "{%3}",
+                        "url" : "{%1}embed{%2}",
+                        "poster" : "https://img.youtube.com/vi{%2}/maxresdefault.jpg",
+                        "fanart" : "https://img.youtube.com/vi{%2}/maxresdefault.jpg",
+                        "plot" : "{%4}"
+                    }
+                ],
+                "Sally the Life Coach" : [
+                    {
+                        "site_url" : "http://sallythelifecoach.com/?s=episode&feed=rss2&post_type=post",
+                        "pattern" : "<item>{*}<title>{%}</title>{*}<link>{%}</link>{*}episode-{%}/{*}<p>{%}</p>{*}</item>",
+                        "name" : "{%1}",
+                        "url" : "{%2}",
+                        "poster" : "http://sallythelifecoach.com/wp-content/uploads/2014/02/{%3}.png",
+                        "fanart" : "http://sallythelifecoach.com/wp-content/uploads/2014/02/{%3}.png",
+                        "plot" : "{%4}"
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Troma",
+            "folder": "SciFi/Horror",
+            "poster" : "https://pbs.twimg.com/profile_images/535166662937292800/Fd-cvTc2_400x400.png",
+            "fanart" : "https://pbs.twimg.com/profile_banners/47976162/1416428529/1500x500",
+            "items" : {
+                "Movies": [
+                  {
+                    "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLLnfvt0Tjwhq8-7ZsXYAaxVrIjoAyo1NA&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4",
+                    "pattern": "\"snippet\":{*}\"title\": \"{%}\"{*}\"description\": \"{%}\"{*}\"high\":{*}\"url\": \"{%}\"{*}\"videoId\": \"{%}\"",
+                    "name": "{%1}",
+                    "url": "https://www.youtube.com/watch?v={%4}",
+                    "plot": "{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}",
+                    "next_pattern": "\"nextPageToken\": \"{%}\",",
+                    "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PLLnfvt0Tjwhq8-7ZsXYAaxVrIjoAyo1NA&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4"
+                  }
+                ],
+                "Documentaries": [
+                  {
+                    "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLLnfvt0TjwhorW5MdWaAahntogiNFaK3m&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4",
+                    "pattern": "\"snippet\":{*}\"title\": \"{%}\"{*}\"description\": \"{%}\"{*}\"high\":{*}\"url\": \"{%}\"{*}\"videoId\": \"{%}\"",
+                    "name": "{%1}",
+                    "url": "https://www.youtube.com/watch?v={%4}",
+                    "plot": "{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}",
+                    "next_pattern": "\"nextPageToken\": \"{%}\",",
+                    "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PLLnfvt0TjwhorW5MdWaAahntogiNFaK3m&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4"
+                  }
+                ],
+                "Toxic Crusader Series": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLLnfvt0Tjwhqv4b1FNHEgqWywb2OstZcl",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ],
+                "Wheelchair Werewolf": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLMVGaRX_9HkfI8YX-HlHYxqcU-XO_iWdp",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ],
+                "Kabukiman's Cocktail Corner": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLLnfvt0TjwhrB_UCosi2nwac99VHAzXhZ",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ],
+                "The Roan Archive": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLLnfvt0TjwhpKX_5y7Dxrm7iBaa_ZRCx5",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ],
+                "Trailers": [
+                  {
+                    "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PL1C1D8D55F15D7345&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4",
+                    "pattern": "\"snippet\":{*}\"title\": \"{%}\"{*}\"description\": \"{%}\"{*}\"high\":{*}\"url\": \"{%}\"{*}\"videoId\": \"{%}\"",
+                    "name": "{%1}",
+                    "url": "https://www.youtube.com/watch?v={%4}",
+                    "plot": "{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}",
+                    "next_pattern": "\"nextPageToken\": \"{%}\",",
+                    "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PL1C1D8D55F15D7345&key=AIzaSyAvmQZVLSX7OwMunrU3LqMCQlVvweu7hI4"
+                  }
+                ],
+                "Tromettes": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLMVGaRX_9HkdSq7_2Sc-II35WFspelCP3",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ],
+                "Tromatic Music Videos!": [
+                  {
+                    "site_url": "https://www.youtube.com/playlist?list=PLLnfvt0TjwhrOUSIFBOhicmFjZ5KuYgO9",
+                    "group": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                    "pattern": "data-title=\"{%}\"{*}<a href=\"{%}\"{*}data-thumb=\"{%}\"",
+                    "name": "{%1}",
+                    "url": "http://youtube.com{%2}",
+                    "poster": "{%3}",
+                    "fanart": "{%3}"
+                  }
+                ]
+            }
+        }
+    ]
+}
