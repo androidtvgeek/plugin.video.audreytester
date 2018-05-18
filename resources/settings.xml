@@ -18,7 +18,7 @@
         <setting label="60005" type="text" id="addon_author" />
         <setting label="60007" type="text" id="addon_email" />
         <setting label="60010" id="addon_icon" type="file"  mask=".png" />
-        <setting label="60011" id="addon_fanart" type="file" mask=".png" />
+        <setting label="60011" id="addon_fanart" type="file" mask=".jpg" />
         <setting label="60002" id="create_addon" type="bool" default="false" />
     </category>
 </settings>
